@@ -5,7 +5,7 @@ import os.path
 
 files = glob.glob("*.sql")
 
-for item in range(10):
+while True:
         word = input("введите слово или его часть для поиска")
         temp_file = []
         for file in files:
